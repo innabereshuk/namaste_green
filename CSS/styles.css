@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+a, button {
+    transition: all .1s ease-in;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    max-width: 1280px;
+    width: 99%;
+    height: 100vw;
+    text-transform: uppercase;
+}
+
+section {
+   width: 100%;
+   height: 980px;
+   padding: 0 0 0 160px;
+}
+
+.content {
+    height: 100%;
+    width: 960px;
+    background: linear-gradient(to right, #ffffff 15%, #ffe6e6 0);
+    background-size: 80px 100%;
+}
+
+footer {
+    width: 960px;
+    height: 560px;
+}
+
+header {
+    width: 100%;
+    height: 420px;
+    padding: 134px 210 px;
+}
+
+.text {
+    height: 100%;
+    text-align: center;
+    padding: 134px 210px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #00b5b8;
+    letter-spacing: 0.4rem;
+    margin: 25px 0 35px 0;
+}
+
+.text p {
+    font-size: 1.5em;
+    letter-spacing: 0.1rem;
+    color: #ae8a8a;
+    line-height: 2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255, 223, 223, .4);
+    border-bottom: 1px solid rgb(225, 223, 223);
+    border-top: 1px solid rgb(225, 223, 223);
+}
+
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+th {
+    height: 425px;
+    text-align: center;
+    width: calc(100%/4);
+    display: inline-table;
+    padding: 0 40px;
+}
+
+
+
+span {
+    display: block;
+    letter-spacing: 0.2rem;
+    color: #ae8a8a;
+    font-size: 0.8rem;
+}
+
+
+.izo:hover {
+    background: url(../img1.2.png) no-repeat 50% 50%;
+    display: block;
+    background-position: top;
+ }
+
+
+a.izo1:hover {
+    background: url(../img2.2.png) no-repeat 50% 50%;
+    background-position: top;
+    
+}
+
+a.izo2:hover {
+    background: url(../img3.2.png) no-repeat 50% 50%;
+    background-position: top;
+    
+}
+
+a.izo3:hover {
+    background: url(../img4.2.png) no-repeat 50% 50%;
+    background-position: top;
+    
+}
+
+.izo:hover img {
+    background: transparent;
+    visibility: hidden;
+}
+
+th:hover {
+    background-color: rgba(0, 181, 184, .3);
+}
+
+h3 {
+    font-size: 1.3rem;
+    letter-spacing: .08rem;
+}
+
+p {
+    letter-spacing: .1rem;
+    line-height: 1.5;
+    padding: 0 35px 25px 35px;
+}
+
+.izo1 h3{
+   padding: 0 35px;
+   margin-top: 0;
+}
+
+
+
+
+
+
